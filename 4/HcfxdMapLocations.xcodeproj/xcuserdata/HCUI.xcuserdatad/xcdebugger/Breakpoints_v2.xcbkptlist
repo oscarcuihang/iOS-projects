@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HcfxdMapLocations/MapLocationViewController.swift"
+            timestampString = "444856747.665808"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "MapLocationViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HcfxdMapLocations/MapLocationViewController.swift"
+            timestampString = "444857774.710003"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MapLocationViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HcfxdMapLocations/MapLocationViewController.swift"
+            timestampString = "444857938.104632"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HcfxdMapLocations/MapLocationViewController.swift"
+            timestampString = "444857942.071234"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HcfxdMapLocations/MapLocationViewController.swift"
+            timestampString = "444862856.955499"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MapLocationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.mapView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863007.414926"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.mapView.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863007.415289"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.init (HcfxdMapLocations.MapLocationViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; HcfxdMapLocations.MapLocationViewController"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863007.415481"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.init (HcfxdMapLocations.MapLocationViewController.Type)() -&gt; HcfxdMapLocations.MapLocationViewController"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863007.41563"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.init (HcfxdMapLocations.MapLocationViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; HcfxdMapLocations.MapLocationViewController"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863007.415786"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HcfxdMapLocations/MapLocationViewController.swift"
+            timestampString = "444863061.631509"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "MapLocationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.mapView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863061.633994"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.mapView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863061.634264"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.mapView.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.MKMapView&gt;"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863061.634401"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.init (HcfxdMapLocations.MapLocationViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; HcfxdMapLocations.MapLocationViewController"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863061.634537"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.init (HcfxdMapLocations.MapLocationViewController.Type)() -&gt; HcfxdMapLocations.MapLocationViewController"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863061.634659"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HcfxdMapLocations.MapLocationViewController.init (HcfxdMapLocations.MapLocationViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; HcfxdMapLocations.MapLocationViewController"
+                  moduleName = "HcfxdMapLocations"
+                  urlString = "file:///Users/HCUI/Documents/projects/HcfxdMapLocations/HcfxdMapLocations/MapLocationViewController.swift"
+                  timestampString = "444863061.634786"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
