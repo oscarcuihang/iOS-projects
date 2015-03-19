@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Y2r-zU-qin">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Tech Comps List View Controller-->
+        <scene sceneID="lJQ-2x-SdB">
+            <objects>
+                <viewController id="Y2r-zU-qin" customClass="TechCompsListViewController" customModule="HcfxdTechCompaniesLocator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TEU-SF-khP"/>
+                        <viewControllerLayoutGuide type="bottom" id="yKl-dk-vTl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pRv-HK-rq9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="lz4-uI-8cv">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="regioncell" textLabel="Z4Z-Bo-txD" detailTextLabel="Hjf-7h-8De" style="IBUITableViewCellStyleValue1" id="2OJ-ig-OB6">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2OJ-ig-OB6" id="gOY-wS-66v">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z4Z-Bo-txD">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hjf-7h-8De">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y2r-zU-qin" id="yqD-3W-bfq"/>
+                                    <outlet property="delegate" destination="Y2r-zU-qin" id="9k2-Vq-Jyd"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lz4-uI-8cv" firstAttribute="leading" secondItem="pRv-HK-rq9" secondAttribute="leading" id="8Fj-4b-HFB"/>
+                            <constraint firstAttribute="bottom" secondItem="lz4-uI-8cv" secondAttribute="bottom" id="W5C-pI-M2e"/>
+                            <constraint firstAttribute="trailing" secondItem="lz4-uI-8cv" secondAttribute="trailing" id="qHD-V7-EV4"/>
+                            <constraint firstItem="lz4-uI-8cv" firstAttribute="top" secondItem="TEU-SF-khP" secondAttribute="bottom" id="xoo-Jw-FSp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="YCp-a7-4C5" kind="show" identifier="showComp" id="pZY-Fw-O2w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dhV-Ts-vcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="229"/>
+        </scene>
+        <!--Show Tech Comps View Controller-->
+        <scene sceneID="Otw-iL-P2a">
+            <objects>
+                <viewController id="YCp-a7-4C5" customClass="ShowTechCompsViewController" customModule="HcfxdTechCompaniesLocator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wFB-TO-cab"/>
+                        <viewControllerLayoutGuide type="bottom" id="34I-bK-gdY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YDi-e4-gJf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="54v-0o-Zvf">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </mapView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Dq-si-7A1">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="oeB-7R-h61">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Y9K-NT-SAx">
+                                            <connections>
+                                                <segue destination="xP3-vo-qjf" kind="unwind" identifier="returnList" unwindAction="backToList:" id="yjB-VT-84i"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Dq-si-7A1" firstAttribute="leading" secondItem="YDi-e4-gJf" secondAttribute="leading" id="5Kg-HB-FwQ"/>
+                            <constraint firstItem="4Dq-si-7A1" firstAttribute="top" secondItem="wFB-TO-cab" secondAttribute="bottom" id="9fw-Ac-rKv"/>
+                            <constraint firstAttribute="trailing" secondItem="4Dq-si-7A1" secondAttribute="trailing" id="Ehe-3H-CUR"/>
+                            <constraint firstItem="54v-0o-Zvf" firstAttribute="top" secondItem="4Dq-si-7A1" secondAttribute="bottom" id="Y3g-c3-rGf"/>
+                            <constraint firstAttribute="trailing" secondItem="54v-0o-Zvf" secondAttribute="trailing" id="j0y-0d-6y6"/>
+                            <constraint firstItem="54v-0o-Zvf" firstAttribute="leading" secondItem="YDi-e4-gJf" secondAttribute="leading" id="mch-Us-9YF"/>
+                            <constraint firstAttribute="bottom" secondItem="54v-0o-Zvf" secondAttribute="bottom" id="wWh-ES-Yzh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="compMap" destination="54v-0o-Zvf" id="scp-zF-jBm"/>
+                        <outlet property="navTitle" destination="oeB-7R-h61" id="YdF-8T-Ctq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ct-v9-Mro" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="xP3-vo-qjf" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1049" y="216"/>
+        </scene>
+    </scenes>
+</document>
